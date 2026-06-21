@@ -92,7 +92,7 @@ function Navbar() {
 
           <li>
             <Link
-              to="/grooming"
+              to="/groom"
               onClick={() => setIsOpen(false)}
               className="hover:text-green-500"
             >
