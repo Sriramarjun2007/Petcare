@@ -41,7 +41,7 @@ function Navbar() {
 
           <li>
             <Link
-              to="/grooming"
+              to="/groom"
               className="hover:text-green-500 transition"
             >
               Grooming

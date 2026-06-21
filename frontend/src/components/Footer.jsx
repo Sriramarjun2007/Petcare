@@ -1,5 +1,5 @@
 import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-200 py-12">
@@ -38,15 +38,16 @@ function Footer() {
 
           <ul className="space-y-3 text-sm text-gray-400">
             <li>
-              <a href="#" className="hover:text-green-400">
+              <Link to="/food" className="hover:text-green-400">
                 Food Subscription
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="#" className="hover:text-green-400">
-                Salon Grooming
-              </a>
+              <Link to="/groom" className="hover:text-green-400">
+                 Salon Grooming
+              </Link>
+               
             </li>
 
             <li>
