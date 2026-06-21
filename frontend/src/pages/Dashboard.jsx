@@ -41,7 +41,7 @@ function Dashboard() {
         />
       </div>
 
-      {/* Subscription Section */}
+  
       <div className="bg-gray-100 mt-20 py-16 px-4">
         <p className="text-center text-3xl font-bold">
           Pet Food Subscription
