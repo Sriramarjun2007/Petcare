@@ -97,7 +97,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Newsletter */}
         <div>
           <h3 className="text-lg font-semibold mb-5">
             Newsletter
