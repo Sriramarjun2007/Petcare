@@ -3,6 +3,7 @@ import leaf from "../assets/leaf.png";
 import plan from "../assets/plan.png";
 import delivery from "../assets/delivery.png";
 import approve from "../assets/approved.png";
+import { Link } from "react-router-dom";
 
 function Dashboard() {
   return (
@@ -25,13 +26,16 @@ function Dashboard() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-5 justify-center items-center mt-10 w-full sm:w-auto">
+          <Link to="/food">
           <button className="bg-green-500 text-white px-6 py-4 rounded-xl hover:bg-green-600 w-full sm:w-auto">
             Subscribe Now
           </button>
-
+          </Link>
+            <Link to="/groom">
           <button className="bg-orange-400 text-white px-6 py-4 rounded-xl hover:bg-orange-500 w-full sm:w-auto">
             Book Grooming
           </button>
+          </Link>
         </div>
 
         <img
