@@ -7,7 +7,7 @@ import approve from "../assets/approved.png";
 function Dashboard() {
   return (
     <div className="bg-[#F4EFDE] min-h-screen pt-20">
-      {/* Hero Section */}
+  
       <div className="flex flex-col items-center px-4">
         <p className="bg-[#F5D496] inline-block px-4 py-2 rounded-full text-xs font-bold mt-10 text-center">
           TRUSTED BY 10,000+ PET PARENTS
