@@ -64,7 +64,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Company */}
         <div>
           <h3 className="text-lg font-semibold mb-5">
             Company
