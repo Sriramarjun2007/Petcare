@@ -80,7 +80,6 @@ function Dashboard() {
             </p>
           </div>
 
-          {/* Card 3 */}
           <div className="bg-white rounded-2xl p-6 shadow-md">
             <img src={delivery} alt="Delivery" className="w-14" />
 
