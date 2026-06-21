@@ -5,7 +5,7 @@ function Footer() {
     <footer className="bg-gray-900 text-gray-200 py-12">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
 
-        {/* Logo & Description */}
+       
         <div>
           <h2 className="text-3xl font-bold text-green-400">
             PetPalace
