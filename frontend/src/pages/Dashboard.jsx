@@ -41,7 +41,7 @@ function Dashboard() {
         <img
           src={dogcatlogo}
           alt="Pet"
-          className="mt-12 w-full max-w-xs sm:max-w-md md:max-w-2xl"
+          className="mt-12 w-full max-w-xs sm:max-w-md md:max-w-2xl rounded-xl"
         />
       </div>
 
