@@ -49,13 +49,13 @@ function Navbar() {
           </li>
 
           <li>
-            <Link
-              to="/about"
-              className="hover:text-green-500 transition"
-            >
-              About
-            </Link>
-          </li>
+          <Link
+            to="/about"
+            onClick={(e) => e.preventDefault()}
+            className="cursor-not-allowed ">
+            About
+          </Link>
+        </li>
         </ul>
 
         {/* Hamburger Button */}
@@ -103,8 +103,9 @@ function Navbar() {
           <li>
             <Link
               to="/about"
-              onClick={() => setIsOpen(false)}
-              className="hover:text-green-500"
+              onClick={(e) =>{ e.preventDefault(); alert("About page is under maintenance");}}
+               className="cursor-not-allowed "
+               
             >
               About
             </Link>
